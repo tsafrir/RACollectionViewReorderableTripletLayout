@@ -37,6 +37,9 @@
     //collection view size
     _collectionViewSize = self.collectionView.bounds.size;
     //some values
+    _oldArray = nil;
+    _largeCellSizeArray = nil;
+    _smallCellSizeArray = nil;
     _itemSpacing = 0;
     _lineSpacing = 0;
     _sectionSpacing = 0;
